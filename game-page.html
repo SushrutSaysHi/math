@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Math Quiz</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column">
+	
+	<h4 id = "name1"></h4>
+	<span id = "output1"></span>
+	
+	<h4 id = "name2"></h4>
+	<span id = "output2"></span>
+
+  <main class="m-auto">
+    <div class="container-fluid">
+      <div class="card login-card">
+        <div class="card-body">
+		<h3 id="player-ques"></h3>
+		<h3 id="player-ans"></h3>
+		
+		<div id = "output">
+			
+		</div>
+		
+          <h2 class="login-card-title">Number 1</h2>
+          <form action="#!">
+            <div class="form-group">
+              <input type="number" name="username" id="player1" class="form-control" placeholder="Enter first number">
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<hr>
+
+<main class="m-auto">
+    <div class="container-fluid">
+      <div class="card login-card">
+        <div class="card-body">
+          <h2 class="login-card-title">Number 2</h2>
+          <form action="#!">
+            <div class="form-group">
+              <input type="number" name="username" id="player2" class="form-control" placeholder="Enter second number">
+            </div>
+            <input name="login" id="login" class="btn login-btn" type="button" value="Send" onclick="send()">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<label class="info">Both player 1 and player 2 needs to be loged in then you can move on presss login to go to next screen</label>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src = "game-page.js"></script>
+</body>
+</html>
